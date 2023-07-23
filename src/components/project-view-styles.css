@@ -1,0 +1,53 @@
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project--view {
+    background-color: transparent;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.3s;
+}
+
+.project--view--close--wrap{
+    position: fixed;
+    justify-content: right;
+    text-align: right;
+    width: 100%;
+    padding-top: 0%;
+    right: 32px;
+    top:32px;
+}
+
+.close--img{
+    justify-content: right;
+    text-align: right;
+    width: 35px;
+
+}
+
+.close--img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 480px)  {
+
+    .project--view--close--wrap {
+        right: 15px;
+        top:15px;
+    }
+
+    .close--img{
+        justify-content: right;
+        text-align: right;
+        width: 20px;
+        
+    
+    }
+
+}

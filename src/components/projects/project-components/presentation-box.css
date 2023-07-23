@@ -1,0 +1,660 @@
+
+
+
+
+/*GENERIC ELEMENTS*/
+
+
+/*PROJECT PRESENTATION INTRO*/
+
+.presentation--wrap {
+    width: 100%;
+}
+
+
+.presentation--intro--box {
+
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:end;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+.presentation--intro--img {
+
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    
+
+}
+
+
+
+.presentation--intro--text--wrap {
+
+    width: 100%;
+    color: black;
+    text-align: left;
+    
+
+}
+
+.presentation--intro--title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom:32px;
+    
+}
+
+.presentation--intro--description {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+
+/*PROJECT PRESENTATION GENERIC BOX*/
+
+
+.presentation--box {
+
+
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:end;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+
+
+
+.presentation--box--2span {
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-items: left;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+.imgs--wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5%;
+
+}
+
+
+.img--wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:5%;
+   
+}
+
+
+.img--wrap--julian{
+}
+
+#presentation--intro--img--julian {
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+
+    opacity: 75%;
+    aspect-ratio: 1;
+
+    width:100%;
+    padding: 10%;
+    transition: 4npm s;
+    border-radius: 85px;
+    filter:grayscale(1);
+    
+    
+
+}
+
+
+#presentation--intro--img--julian:hover {
+    filter:grayscale(0);
+    opacity: 100%;
+
+    transition: 0.4s;
+
+
+
+}
+
+
+
+
+.two--imgs--wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5% ;
+    padding: 10%;
+
+    
+}
+
+.three--imgs--wrap{
+    display: grid;
+    justify-content:space-between;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5% ;
+    padding: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.four--imgs--wrap{
+    display: grid;
+    justify-content:space-between;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;;
+    gap:4% ;
+    padding: 0%;
+    
+}
+    
+
+
+
+.presentation--img {
+
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    
+
+}
+
+
+.presentation--text--wrap {
+
+    width: 100%;
+    color: black;
+    text-align: left;
+    
+
+}
+
+.presentation--heading {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom:32px;
+    
+}
+
+.presentation--description {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+p {
+    margin-bottom: 18px;
+}
+
+
+
+/*SPECIFIC VARIATIONS*/
+
+#presentation--wrap--deka {
+    padding: 5% 0% 5% 0%;
+
+
+}
+
+#presentation--wrap--zotmerr {
+    padding: 5% 5% 5% 5%;
+
+}
+
+
+
+
+#presentation--wrap--realbeat {
+    padding: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#imgs--wrap--deka{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#img--wrap--deka{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0%;
+}
+
+#presentation--img--round--border {
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.1);
+}
+
+#presentation--img--mobile--round--border {
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.1);
+    width: 85%;
+}
+
+
+#presentation--img--deka{
+    width: 100%;
+    height: auto;
+    object-fit:scale-down;
+    transition: 0.3s;
+   
+}
+
+#presentation--img--dark--matter{
+    border-radius: 10px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#presentation--img--deka:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+#presentation--intro--img--deka--logo{
+    height: 500px;
+}
+
+
+#presentation--box--deka {
+}
+
+
+
+#presentation--box--2span--deka {
+    margin-bottom: 4%;
+    justify-content: left;
+    width: 100%;
+    height: fit-content;
+}
+
+
+#two--imgs--wrap--deka {
+    height: 40%;
+    justify-content: left;
+}
+
+
+#two--imgs--wrap--dark--matter{
+
+    padding: 0;
+
+    
+}
+
+
+#one--img--wrap--deka {
+    height: 35%;
+    height: fit-content;
+}
+
+#three--imgs--wrap--deka{
+    height: 40%;
+    display: grid;
+    justify-content:space-between;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5% ;
+    row-gap: 0%;
+    padding: 0% 0% 0% 0%;
+    margin-top: 1%;
+}
+
+
+#four--imgs--wrap--deka{
+    display: grid;
+    justify-content:space-between;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr 1f 1fr ;
+    gap:4% ;
+    padding: 0%;
+    padding-bottom: 5%;
+
+}
+
+
+@media screen and (max-width: 880px) {
+
+    
+
+
+    .presentation--intro--box {
+
+        grid-template-columns: 1fr;
+
+    
+    }
+
+    .presentation--intro--img {
+
+        width: 100%;
+        height: auto;
+        object-fit: scale-down;
+        
+    
+    }
+
+    #presentation--intro--img--deka--logo {
+        transform: scale(0.8);
+        height: auto;
+        object-fit: scale-down;
+        align-self: center;
+        
+    
+    }
+
+    #presentation--intro--img--pprune {
+
+        width: 70%;
+        height: auto;
+        object-fit: scale-down;
+        
+    
+    }
+
+    .presentation--intro--title {
+        font-size: 42px;
+        font-weight: 800;
+
+        
+    }
+    
+    .presentation--intro--description {
+        font-size: 24px;
+        font-weight: 400;    }
+    
+    p {
+    }
+
+    .img--wrap {
+        padding-top: 0;
+        grid-row: 3;
+    
+    }
+
+   
+
+    .presentation--img {
+
+        width: 100%;
+        height: auto;
+        object-fit: scale-down;
+        padding-top: 0;
+        
+    
+    }
+
+    .presentation--text--wrap {
+
+        width: 100%;
+        color: black;
+        text-align: left;
+
+        margin-bottom: 5%;
+        grid-row: 1;
+        
+    
+    }
+    
+
+    .presentation--heading {
+        font-size: 42px;
+        font-weight: 800;
+        grid-row: 1;
+    }
+    
+    .presentation--description {
+        font-size: 24px;
+        font-weight: 400;
+        grid-row: 2;
+    }
+    
+    p {
+    }
+
+    .presentation--box {
+
+        grid-template-columns: 1fr;
+        gap: 1%;
+        margin-bottom: 15%;
+        margin-top: 15%;
+
+    
+    }
+
+    .presentation--box--2span {
+        margin-bottom: 15%;
+        margin-top: 15%;
+
+        
+
+    
+    }
+
+    #presentation--img--round--border {
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.1);
+        
+    
+
+    }
+    
+    #presentation--img--mobile--round--border {
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.1);
+        width: 85%;
+   
+    }
+
+    .imgs--wrap {
+        padding-top: 0;
+        grid-row: 3;
+    
+    }
+
+    .img--wrap {
+        padding-top: 0;
+        grid-row: 3;
+    
+    }
+
+    .three--imgs--wrap{
+        gap:5% ;
+        padding: 0%;
+        margin: 0;
+
+    }
+    
+    .four--imgs--wrap{
+        grid-template-columns: 1fr 1fr;
+        justify-content: c;
+    }
+
+    #presentation--wrap--deka {
+        padding: 0% 0% 0% 0%;
+    
+    
+    }
+
+    #presentation--img--deka--logo{
+        height: 250px;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .presentation--wrap {
+        margin-top: 0% ;
+    }
+    
+
+    .presentation--intro--box {
+
+        grid-template-columns: 1fr;
+        margin-bottom: 20%;
+        gap: 50px;
+    }
+
+    .presentation--intro--img {
+
+        width: 100%;
+        height: auto;
+        object-fit: scale-down;
+        justify-self: left;
+        margin-bottom: 0;
+
+        width: 100%;
+        
+
+        grid-row: 2;
+        
+    
+    }
+
+    #presentation--intro--img--julian {
+        grid-row: 1;
+    } 
+
+    .presentation--intro--title {
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    
+    .presentation--intro--description {
+        font-size: 18px;
+        font-weight: 400;
+        grid-row: 1;  }
+
+    #presentation--intro--description--julian {
+ 
+        grid-row: 2;
+    }
+
+
+
+
+    #presentation--intro--img--deka--logo {
+        width: 100%;
+        height: auto;
+        object-fit: scale-down;
+        align-self: center;
+        
+    
+    }
+    
+    p {
+        margin-bottom: 18px;
+    }
+
+    .presentation--box {
+
+        grid-template-columns: 1fr;
+        margin-bottom: 20%;
+ 
+    
+    }
+
+    
+    .presentation--box--2span {
+        margin-bottom: 20%;
+    
+    }
+
+    .presentation--heading {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 2%;
+    }
+    
+    .presentation--description {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    p {
+        margin-bottom: 18px;
+    }
+
+    .two--imgs--wrap{
+        grid-template-columns: 1fr;
+   
+    }
+
+    .three--imgs--wrap{
+        grid-template-columns: 100%;
+        gap:1% ;
+     
+        
+       
+    }
+    
+    .four--imgs--wrap{
+        grid-template-columns: 1fr 1fr;
+   
+    }
+
+    #presentation--img--deka--logo{
+        height: 175px;
+    }
+
+    .imgs--wrap {
+
+
+    }
+    
+
+
+
+
+}
+    
+
+    
+
+
+
+
+

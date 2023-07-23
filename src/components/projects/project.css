@@ -1,0 +1,787 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contents{
+    color: var(--dark-grey);
+    margin-top: 8vh;
+    margin-bottom: 12vh;
+    justify-content: center;
+
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    row-gap: 18vh;
+    column-gap: 6vh;
+
+}
+
+#main-grid-deka{
+    column-gap: 0vh;
+    row-gap: 18vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+.grid-el {
+    width: 100%;
+    justify-items: left;
+}
+
+#multi-el {
+    width: 100%;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    display: flex;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: left;
+
+}
+
+.project-img {
+    width: 100%;
+}
+
+
+
+.table {
+    width: 100%;
+}
+
+.table2 {
+    width: 95%;
+}
+
+#map-img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.project-logo {
+   width: 80%;
+   justify-self: left;
+}
+
+.text-heading {
+
+    align-self:  left;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 2vh;
+
+}
+
+#secondary {
+    padding-bottom: 4vh;
+}
+
+
+
+
+#book-renders {
+    width: 100%;
+}
+
+.description {
+    font-weight: 500;
+    margin-top: 1vh;
+}
+
+#symbol-wrap {
+    width: 100px;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.symbol {
+    align-self: center;
+    width: 45px;
+}
+
+
+
+
+.text-paragraphs {
+    text-align: left;
+
+    font-size: 24px;
+    margin-bottom: 2vh;
+
+}
+
+.text-p {
+    padding-bottom: 2vh;
+}
+
+
+.generic-list-wrap {
+    list-style-type: none;
+
+    font-size: 24px;
+}
+.generic-list-title {
+
+    font-weight: 500;
+
+    margin-bottom: 1vh;
+
+}
+
+.generic-list-elements {
+    list-style-type: none;
+
+    margin-left: 1vw;
+}
+
+
+.note-text-wrap {
+
+    margin-top: 2vh;
+}
+.note-text {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.project-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#more-than-one-media {
+
+    justify-content: space-between;
+}
+
+#forums {
+    width: 100%;
+}
+
+#personas {
+
+    width: 100%;
+}
+
+#span2-el {
+    text-align: left;
+    display: block;
+    justify-content: center;
+    grid-column: 1 / span 2;
+    padding-left: 1vh;
+    padding-right: 1vh;
+
+}
+
+#span2-el-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / span 2;
+
+}
+
+.span2-table{
+    width: 105.5%;
+
+}
+
+#span2-el-3 {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / span 2;
+
+}
+
+
+
+.grab {
+    border: solid 0.5px rgb(122, 122, 122);
+    border-radius: 10px;
+    width: 120%;
+    mix-blend-mode: darken;
+}
+#caption {
+
+    padding: 15%;
+    text-align: center;
+}
+
+
+.img-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.mobile-mockup {
+    width: 75%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+}
+
+.desktop-mockup {
+    border-radius: 15px;
+    width:100%;
+    box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+
+}
+
+#er {
+    padding-bottom: 4vh;
+}
+
+#external-link {
+
+    grid-column: 1 / 3;
+}
+
+
+.important-button-wrap {
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 14vh;
+
+}
+
+.project--wrap {
+    padding: 10% 5% 5% 5%;
+}
+
+#project--wrap--v2 {
+    padding: 2% 10% 15% 10%;
+}
+
+#project--wrap--dark-matter{
+    padding: 0% 15% 15% 15% ;
+
+}
+
+#project--wrap--dark-matter{
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+    
+
+
+
+    .contents{
+        color: var(--dark-grey);
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    
+    }
+
+    .main-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 12vh;
+    
+    }
+    
+    .grid-el {
+        width: 100%;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        justify-items: center;
+    }
+    
+    #multi-el {
+        width: 100%;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        display: flex;
+    }
+    
+    .img-wrap {
+    
+        display: flex;
+        justify-content: center;
+    
+        
+    }
+    
+    
+    
+    .table {
+        width: 100%;
+    }
+    
+    #map-img {
+        transform: scale(1.2);
+    }
+    
+    #logo-el {
+        padding-top: 0;
+        display: none;
+    }
+    
+    
+    .project-logo {
+       width: 100%;
+       justify-self: center;
+    }
+    
+    .text-heading {
+    
+        align-self:  center;
+        font-size: 38px;
+        font-weight: 700;
+        padding-bottom: 4vh;
+        padding-top: 0vh;
+    
+    }
+    
+    #secondary {
+        padding-bottom: 4vh;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .text-paragraphs {
+    
+        font-size: 18px;
+        margin-bottom: 2vh;
+    
+    }
+    
+    .text-p {
+        padding-bottom: 2vh;
+    }
+    
+    
+    .generic-list-wrap {
+    
+        font-size: 24px;
+    }
+    .generic-list-title {
+    
+        font-weight: 700;
+    
+        margin-bottom: 1vh;
+    
+    }
+    
+    .generic-list-elements {
+    
+        margin-left: 1vw;
+    }
+    
+    
+    .note-text-wrap {
+        display: none;
+        margin-top: 2vh;
+    }
+    .note-text {
+        font-size: 16px;
+        font-style: italic;
+    }
+    
+    
+    .project-media-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    #more-than-one-media {
+    
+        justify-content: space-between;
+    }
+    
+    #forums {
+        width: 100%;
+    }
+    
+    #personas {
+    
+        width: 100%;
+    }
+    
+    #span2-el {
+        display: block;
+        justify-content: center;
+        grid-column: 1;
+        text-align: left;
+    
+    }
+    
+    #span2-el-2 {
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        grid-column: 1;
+    
+    }
+    
+    .span2-table{
+        width: 100%;
+    
+    }
+    
+    #caption {
+    
+        padding: 15%;
+        text-align: center;
+    }
+    
+    
+    .img-wrap {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 8vh;
+    }
+    
+    
+    .mobile-mockup {
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+    }
+    
+    .desktop-mockup {
+        border-radius: 15px;
+        width:100%;
+        box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+    
+    }
+    
+    #external-link {
+    
+        grid-column: 1 / 3;
+    }
+    
+    
+    .important-button-wrap {
+    
+        display: flex;
+        justify-content: center;
+    
+        padding-bottom: 14vh;
+    
+    }
+
+    #span2-el-3 {
+        text-align: center;
+        display: block;
+        justify-content: space-between;
+        grid-column: 1 / span 2;
+    
+    }
+
+    .process {
+        display: inline-block;
+        width: 100%;
+        justify-items: center;
+    }
+    
+    .process-img-wrap {
+        padding-top: 5%;
+        justify-content: center;
+        width:100%;
+        text-align: center;
+    }
+    
+    .process-img {
+        width: 100%;
+        
+    }
+
+    .symbol {
+
+        display: none;
+
+    }
+    
+    
+    
+        
+    
+    
+    }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2vh;
+
+}
+
+.grid-el {
+    width: 100%;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    justify-items: center;
+}
+
+#multi-el {
+    width: 100%;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    display: flex;
+}
+
+.img-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+
+.project-img {
+    width: 120%;
+}
+
+
+
+
+.table {
+    width: 100%;
+}
+
+#map-img {
+    transform: scale(1.2);
+}
+
+#logo-el {
+    padding-top: 0;
+    display: none;
+}
+
+
+.project-logo {
+   width: 100%;
+   justify-self: center;
+}
+
+.text-heading {
+
+    align-self:  left;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 4vh;
+    padding-top: 0vh;
+    padding-bottom: 2vh;
+
+}
+
+#secondary {
+    padding-bottom: 2vh;
+
+
+}
+
+
+
+
+
+
+
+.text-paragraphs {
+
+    font-size: 18px;
+    margin-bottom: 2vh;
+
+}
+
+.text-p {
+    padding-bottom: 2vh;
+}
+
+
+.generic-list-wrap {
+
+    font-size: 18px;
+    margin-bottom: 4vh;
+}
+.generic-list-title {
+
+    font-weight: 500;
+
+    margin-bottom: 1vh;
+
+}
+
+.generic-list-elements {
+
+    margin-left: 1vw;
+}
+
+
+.note-text-wrap {
+
+    margin-top: 4vh;
+}
+.note-text {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.project-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#more-than-one-media {
+
+    justify-content: space-between;
+}
+
+#forums {
+    width: 100%;
+}
+
+#personas {
+
+    width: 100%;
+}
+
+#span2-el {
+    display: block;
+    justify-content: center;
+    grid-column: 1;
+    text-align: left;
+
+}
+
+#span2-el-2 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    grid-column: 1;
+
+}
+
+.span2-table{
+    width: 100%;
+
+}
+
+#caption {
+
+    padding: 15%;
+    text-align: center;
+}
+
+
+.img-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 8vh;
+}
+
+
+.mobile-mockup {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+}
+
+.desktop-mockup {
+    border-radius: 15px;
+    width:100%;
+    box-shadow: 4px 4px 12px var(--drop-shadow-grey);
+
+}
+
+#external-link {
+
+    grid-column: 1 / 3;
+}
+
+
+.important-button-wrap {
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 14vh;
+
+}
+
+.project--wrap {
+    padding: 40px 0px 0px 0px;
+}
+
+#project--wrap--v2 {
+    padding: 50px 0px 0px 0px;
+}
+
+#project--wrap--dark-matter{
+    padding: 20% 0% 60% 0% ;
+    margin: 0% 0% 0% 0%;
+
+}
+
+
+
+#project--wrap--deka {
+    padding: 50px 0px 0px 0px;
+}
+
+#main-grid-deka {
+    row-gap: 0vh;
+}
+
+
+
+
+
+
+}

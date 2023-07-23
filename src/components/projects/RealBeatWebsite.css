@@ -1,0 +1,43 @@
+.realbeat-frame {
+    width:393px;
+    height:851px;
+    border-radius: 14px;
+    border: 8px solid black;
+    transform:scale(0.85);
+}
+
+
+
+@media screen and (max-width: 880px) {
+
+    #presentation--wrap--realbeat{
+        grid-template-columns: 100%;
+    }
+
+    .realbeat-frame {
+        width:393px;
+        height:851px;
+        border-radius: 14px;
+        border: 8px solid black;
+        transform:scale(0.95);
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #presentation--wrap--realbeat{
+        grid-template-columns: 100%;
+    }
+
+    .realbeat-frame {
+        width:393px;
+        height:851px;
+        border-radius: 14px;
+        border: 8px solid black;
+        transform:scale(0.85);
+    }
+    
+
+}

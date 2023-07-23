@@ -1,0 +1,49 @@
+/* SAMDWICH BUTTON STYLES */
+.sandwich--wrap {
+    width: 24px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.sandwich--wrap--clicked {
+    width: 24px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.sandwich--wrap:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+
+
+
+.sandwich {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: space-between;
+}
+
+.sandwich--line {
+    background-color: black;
+    height: 3.2px;
+    width: 100%;
+    border-radius: 1.5px;
+}
+
+
+#sl--2 {
+    width: 100%;
+    justify-self: center;
+    transition: 0.3s;
+}

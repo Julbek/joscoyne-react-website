@@ -1,0 +1,117 @@
+
+
+#project--wrap--dark--matter{
+    margin-top: 0%;
+    margin-bottom: 20%;
+    padding: 0;
+}
+
+#text-paragraphs-dark-matter {
+    padding: 0;
+}
+
+.text-p {
+    padding: 0;
+}
+
+.grid-el {
+    width: 100;
+    padding: 0;
+    margin: 0;
+}
+
+
+.composition--wrap {
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: top;
+    padding: 4% 2% 2% 2%;
+}
+
+.composition--step--wrap{
+    width: fit-content;
+    display: block;
+    text-align: right;
+    padding: 1%;
+}
+
+
+
+.composition--img {
+    width: 100%;
+    object-fit: scale-down;
+    
+}
+
+.symbol--wrap {
+    align-items:  center;
+    padding-top: 14%;
+}
+
+.symbol {
+    width: 50px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .composition--img {
+        width: 150px;
+        
+    }
+
+    .symbol {
+        width: 20px;
+    }
+   
+ 
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .composition--wrap {
+        flex-direction: column;
+    }
+
+    .symbol--wrap {
+        align-items:  center;
+        padding: 0;
+        padding-left: 46%;
+        align-items: center;
+        justify-items: center; 
+    }
+
+    .symbol {
+        justify-self: center;
+        width: 30px;}
+
+    #arrow {
+        transform: rotate(90deg);
+    }
+
+    .composition--step--wrap{
+
+        text-align: center;
+    }
+
+    .composition--img {
+        width: 90%;
+        
+    }
+    
+
+
+
+
+
+}

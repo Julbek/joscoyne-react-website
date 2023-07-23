@@ -1,0 +1,50 @@
+.clementoni-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    height: auto;
+   
+}
+
+
+
+
+.clementoni-img {
+    width: 100%;
+    padding: 4%;
+}
+
+
+
+
+@media screen and (max-width: 880px) {
+    
+    .clementoni-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    
+        height: auto;
+       
+    }
+    
+    
+    
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .clementoni-grid {
+        display: grid;
+        grid-template-columns: 1fr ;
+    
+        height: auto;
+       
+    }
+    
+    
+    
+    
+}

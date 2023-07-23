@@ -1,0 +1,17 @@
+.info--wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info--img {
+    width: 24px;
+    transition: 0.1s;
+}
+
+.info--img:hover {
+    cursor:pointer;
+    transform:scale(1.05);
+}
+
+
